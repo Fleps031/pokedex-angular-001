@@ -10,12 +10,14 @@
 
 .poke-div img{
     width: 60%;
-    padding-left: 15%;
+    /* padding-left: 15%; */
 }
 
 .poke-div-sprites{
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    width: 100%;
 }
 
 .poke-div{
