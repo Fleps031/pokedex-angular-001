@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { DataService } from '../service/data.service';
 import { CommonModule } from '@angular/common';
+import { PokemonCardComponent } from '../pokemon-card/pokemon-card.component';
 
 
 @Component({
   selector: 'app-pokemon-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, PokemonCardComponent],
   templateUrl: './pokemon-list.component.html',
   styleUrl: './pokemon-list.component.css'
 })

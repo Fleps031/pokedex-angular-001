@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { Input } from '@angular/core';
+
 import { PokemonListComponent } from '../pokemon-list/pokemon-list.component';
 
 @Component({
@@ -9,5 +11,6 @@ import { PokemonListComponent } from '../pokemon-list/pokemon-list.component';
   styleUrl: './pokemon-card.component.css'
 })
 export class PokemonCardComponent { 
-
+  @Input() pokemon: any = '';
+  
 }
