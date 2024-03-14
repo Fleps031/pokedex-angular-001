@@ -3,4 +3,6 @@
     grid-gap: 16px;
     padding: 10px;
     grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+    /* background-color: rgb(247, 247, 247); */
+    background-color: rgb(255, 255, 255);   
 }
